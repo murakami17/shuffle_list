@@ -12,7 +12,7 @@ with open('LICENSE') as f:
 setup(
     name='shuffle_list',
     version='0.1.0',
-    description='Shuffle and put icons with given distributions',
+    description='Shuffle and put icons with given distributions.',
     long_description=readme,
     author='Taku MURAKAMI',
     author_email='murakami.taku.17@shizuoka.ac.jp',
