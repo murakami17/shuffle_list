@@ -86,5 +86,5 @@ if __name__ == "__main__":
     ]
     
     for index, shuffle_list in enumerate(shuffle_list_list):
-        print(str(index) + ":" + shuffle_list.put_shuffled_list() + "\n")
+        print(str(index) + ":\n" + shuffle_list.put_shuffled_list() + "\n")
     
