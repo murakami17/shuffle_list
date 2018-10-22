@@ -58,7 +58,11 @@ class Shuffle_list:
             which means the number of icon.
             example - {"Mg": 72, "Al": 36, "Y": 36}
         """
-        pass
+        for key, value in icons_dic.items():
+            for index in range(value):
+                self.shuffled_list.append(key)
+        
+        self.shuffled_list.shuffle()
     
     def put_shuffled_list(self):
         """
