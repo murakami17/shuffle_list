@@ -64,8 +64,18 @@ class Shuffle_list:
         """
         Puts shuffled list.
         """
-        pass
+        print("\n".join(self.shuffled_list))
     
 
 if __file__ == "__main__"
-    pass
+    shuffle_list_list = [
+        Shuffle_list.make_shuffled_list(Mg=72, Al=36, Y=36),
+        Shuffle_list.make_shuffled_list(Mg=72, Al=36, Y=36),
+        Shuffle_list.make_shuffled_list(Mg=108,Al=18, Y=18),
+        Shuffle_list.make_shuffled_list(Mg=108,Al=18, Y=18)
+    ]
+    
+    for index, shuffle_list in enumerate(shuffle_list_list):
+        print(str(index) + ":")
+        print(shuffle_list.put_shuffled_list)
+    
