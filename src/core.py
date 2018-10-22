@@ -38,6 +38,7 @@ class Shuffle_list:
         """
         self.seeds = cls.seeds
         change_random_seeds()
+        self.shuffled_list = []
     
     @classmethod
     def change_random_seed(cls):
